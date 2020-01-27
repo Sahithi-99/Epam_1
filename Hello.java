@@ -3,13 +3,13 @@ public class Hello {
 
     public static void main(String[] args) {
         
-        int num1, num2, sum;
+        float num1, num2, sum;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number: ");
-        num1 = sc.nextInt();
+        num1 = sc.nextFloat();
         
         System.out.println("Enter Second Number: ");
-        num2 = sc.nextInt();
+        num2 = sc.nextFloat();
         
         sc.close();
         sum = num1 + num2;
